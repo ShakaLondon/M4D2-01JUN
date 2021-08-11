@@ -17,8 +17,8 @@ class Mynav extends Component {
         <Navbar className="fixed-top position-relative" bg="dark" variant="dark" expand="lg">
           <Container>
             <Navbar.Brand href="#home" className="d-flex align-items-center">
-              <FontAwesomeIcon icon={["fa", "rocket"]} className="fa-2x"/>
-              <img alt="" src={SBLogo} width="200" className="d-inline-flex align-top img-fluid px-2"/>
+              <FontAwesomeIcon icon={["fa", "rocket"]} className="fa-2x" id="rocketLogo"/>
+              <img alt="" src={SBLogo} width="200" className="d-inline-flex align-top img-fluid px-2" id="stvBooks"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">

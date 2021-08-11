@@ -1,0 +1,38 @@
+.containerOverlay,
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerOverlay {
+  width: 188px;
+  height: 285px;
+  background-color: #ccc;
+  margin: 60px auto 0;
+  display: flex;
+}
+
+.wrapper {
+  height: 285px;
+  width: 195px;
+  background-color: #666;
+}
+
+.innerBox {
+  width: 188px;
+  height: 200px;
+  padding: 8px !important;
+  background-color: #666;
+  display: none;
+  position: absolute;
+}
+
+.containerOverlay.show .innerBox {
+  display: block;
+}
+
+.gradient {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(27, 27, 27, 0.527), rgba(27, 27, 27));
+    opacity: 0.8
+}

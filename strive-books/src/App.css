@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Signika+Negative:wght@600&display=swap');
 
 .App {
   text-align: center;
@@ -7,7 +9,6 @@
 .jumbotron {
   background-image: url(https://1.bp.blogspot.com/-Xs_m8-LyJ98/V9G3cRLeD5I/AAAAAAAACss/9KGkxk-H5aEDTTEpG4ctdIuU0BVA1whlwCLcB/s1600/guis%2Bfiction.JPG);
   height: 500px;
-  padding-top: 250px;
   min-height:100%;
   background:linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(https://1.bp.blogspot.com/-Xs_m8-LyJ98/V9G3cRLeD5I/AAAAAAAACss/9KGkxk-H5aEDTTEpG4ctdIuU0BVA1whlwCLcB/s1600/guis%2Bfiction.JPG);
   background-size:cover;
@@ -17,5 +18,29 @@
   font-family: 'DM Serif Display', serif;
   font-weight: bolder;
   font-size: 80px;
+}
+
+.jumboSubText {
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px white;
+}
+
+.jumboBtn {
+  font-family:'DM Serif Display', serif;
+  font-weight: lighter;
+}
+
+.jumboBtn:hover {
+  font-weight: bold;
+}
+
+.containershow {
+  display: block !important;
+}
+
+.imgContainer > div {
+  display: none;
 }
 
