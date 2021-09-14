@@ -44,3 +44,11 @@
   display: none;
 }
 
+.left-arrow {
+  margin-left: -100px;
+}
+
+.right-arrow {
+  margin-right: -100px;
+}
+
